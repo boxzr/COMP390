@@ -1,0 +1,34 @@
+# Executables
+*.exe
+*.out
+*.app
+
+# Compiled Object files
+*.obj
+*.o
+*.ko
+*.elf
+
+# Build folders
+/build/
+build/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio files
+*.vs
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+
+# DLLs
+*.dll
+
+# Temp files
+*.log
+*.pdb 
