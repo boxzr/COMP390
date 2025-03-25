@@ -1,0 +1,146 @@
+Microsoft (R) COFF/PE Dumper Version 14.42.34436.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file glut32.dll
+
+File Type: DLL
+
+  Section contains the following exports for glut32.dll
+
+    00000000 characteristics
+    3BEA4FF3 time date stamp Thu Nov  8 04:27:15 2001
+        0.00 version
+           1 ordinal base
+         119 number of functions
+         119 number of names
+
+    ordinal hint RVA      name
+
+          3    0 000054F0 ___glutGetFCB@4
+          5    1 00005250 ___glutSetFCB@8
+          1    2 0000C9A0 __glutCreateMenuWithExit
+          2    3 0000B8A0 __glutCreateWindowWithExit
+          4    4 00007DD0 __glutInitWithExit
+          6    5 0000CAF0 glutAddMenuEntry
+          7    6 0000CC40 glutAddSubMenu
+          8    7 0000D0B0 glutAttachMenu
+          9    8 00001000 glutBitmapCharacter
+         10    9 00001200 glutBitmapLength
+         11    A 00001190 glutBitmapWidth
+         12    B 00001D70 glutButtonBoxFunc
+         13    C 0000CD10 glutChangeToMenuEntry
+         14    D 0000CE60 glutChangeToSubMenu
+         15    E 000017F0 glutCopyColormap
+         16    F 0000C800 glutCreateMenu
+         17   10 0000B8C0 glutCreateSubWindow
+         18   11 0000B7E0 glutCreateWindow
+         19   12 0000C9C0 glutDestroyMenu
+         20   13 0000BAC0 glutDestroyWindow
+         21   14 0000D120 glutDetachMenu
+         22   15 00007F40 glutDeviceGet
+         23   16 00001DA0 glutDialsFunc
+         24   17 0000BB90 glutDisplayFunc
+         25   18 000066B0 glutEnterGameMode
+         26   19 0000BD40 glutEntryFunc
+         27   1A 000085E0 glutEstablishOverlay
+         28   1B 00005180 glutExtensionSupported
+         29   1C 00008180 glutForceJoystickFunc
+         30   1D 00005750 glutFullScreen
+         31   1E 00006810 glutGameModeGet
+         32   1F 00005840 glutGameModeString
+         33   20 00006920 glutGet
+         34   21 00001710 glutGetColor
+         35   22 0000CA70 glutGetMenu
+         36   23 00008510 glutGetModifiers
+         37   24 0000A990 glutGetWindow
+         38   25 00008A30 glutHideOverlay
+         39   26 0000C0C0 glutHideWindow
+         40   27 0000C060 glutIconifyWindow
+         41   28 00004560 glutIdleFunc
+         42   29 000082E0 glutIgnoreKeyRepeat
+         43   2A 000075F0 glutInit
+         44   2B 00007EB0 glutInitDisplayMode
+         45   2C 00001DD0 glutInitDisplayString
+         46   2D 00007DF0 glutInitWindowPosition
+         47   2E 00007E50 glutInitWindowSize
+         48   2F 000080D0 glutJoystickFunc
+         49   30 00008240 glutKeyboardFunc
+         50   31 00008310 glutKeyboardUpFunc
+         51   32 00008AD0 glutLayerGet
+         52   33 00005800 glutLeaveGameMode
+         53   34 00004890 glutMainLoop
+         54   35 0000C570 glutMenuStateFunc
+         55   36 0000C580 glutMenuStatusFunc
+         56   37 0000BC40 glutMotionFunc
+         57   38 0000BBC0 glutMouseFunc
+         58   39 00008A00 glutOverlayDisplayFunc
+         59   3A 0000BCE0 glutPassiveMotionFunc
+         60   3B 0000BFC0 glutPopWindow
+         61   3C 0000BEE0 glutPositionWindow
+         62   3D 000089B0 glutPostOverlayRedisplay
+         63   3E 00004850 glutPostRedisplay
+         64   3F 000089D0 glutPostWindowOverlayRedisplay
+         65   40 00004870 glutPostWindowRedisplay
+         66   41 0000C010 glutPushWindow
+         67   42 0000CFD0 glutRemoveMenuItem
+         68   43 000088B0 glutRemoveOverlay
+         69   44 0000A640 glutReportErrors
+         70   45 0000BE50 glutReshapeFunc
+         71   46 0000BF40 glutReshapeWindow
+         72   47 00001290 glutSetColor
+         73   48 00001D20 glutSetCursor
+         74   49 00008300 glutSetIconTitle
+         75   4A 00008300 glutSetKeyRepeat
+         76   4B 0000CA90 glutSetMenu
+         77   4C 0000AA30 glutSetWindow
+         78   4D 0000BE80 glutSetWindowTitle
+         79   4E 0000A820 glutSetupVideoResizing
+         80   4F 00008A80 glutShowOverlay
+         81   50 0000C090 glutShowWindow
+         82   51 00008D90 glutSolidCone
+         83   52 00008F80 glutSolidCube
+         84   53 00009820 glutSolidDodecahedron
+         85   54 00009C20 glutSolidIcosahedron
+         86   55 00009BC0 glutSolidOctahedron
+         87   56 00008CD0 glutSolidSphere
+         88   57 00009FC0 glutSolidTeapot
+         89   58 00009C80 glutSolidTetrahedron
+         90   59 00009170 glutSolidTorus
+         91   5A 00009CF0 glutSpaceballButtonFunc
+         92   5B 00009C90 glutSpaceballMotionFunc
+         93   5C 00009CC0 glutSpaceballRotateFunc
+         94   5D 00008290 glutSpecialFunc
+         95   5E 00008360 glutSpecialUpFunc
+         96   5F 0000A840 glutStopVideoResizing
+         97   60 00009D20 glutStrokeCharacter
+         98   61 00009EC0 glutStrokeLength
+         99   62 00009E60 glutStrokeWidth
+        100   63 00009E00 glutSwapBuffers
+        101   64 00009F90 glutTabletButtonFunc
+        102   65 00009F40 glutTabletMotionFunc
+        103   66 00004570 glutTimerFunc
+        104   67 00008910 glutUseLayer
+        105   68 0000A850 glutVideoPan
+        106   69 0000A850 glutVideoResize
+        107   6A 0000A780 glutVideoResizeGet
+        108   6B 0000BDE0 glutVisibilityFunc
+        109   6C 0000A860 glutWarpPointer
+        110   6D 0000BDA0 glutWindowStatusFunc
+        111   6E 00008D30 glutWireCone
+        112   6F 00008DF0 glutWireCube
+        113   70 000091A0 glutWireDodecahedron
+        114   71 00009BD0 glutWireIcosahedron
+        115   72 00009830 glutWireOctahedron
+        116   73 00008C40 glutWireSphere
+        117   74 0000A550 glutWireTeapot
+        118   75 00009C30 glutWireTetrahedron
+        119   76 00008FA0 glutWireTorus
+
+  Summary
+
+        7000 .data
+       18000 .rdata
+        4000 .reloc
+        1000 .rsrc
+       17000 .text
