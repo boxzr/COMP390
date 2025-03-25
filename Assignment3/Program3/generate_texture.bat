@@ -1,0 +1,9 @@
+@echo off
+echo Compiling texture generator...
+cl generate_texture.cpp /EHsc
+echo.
+echo Running texture generator...
+generate_texture.exe
+echo.
+echo Press any key to exit...
+pause > nul 
